@@ -67,7 +67,7 @@ drought-vci-mapping/
 ├── README.md
 │
 ├── data/
-│   └── dataset.zip
+│   └── gadm41_IND_shp.zip
 │
 └── outputs/
     ├── annual_ndvi_2023.png
