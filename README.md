@@ -87,6 +87,9 @@ drought-vci-mapping/
 │   ├── ndvi_time_series.png
 │   └── drought_class_distribution.png
 │
+├── docs/
+│   └── screenshots/           # dashboard screenshots used in this README
+│
 └── frontend/
     ├── public/                # district boundary + notebook figures
     ├── src/
@@ -191,6 +194,26 @@ npm run preview
 - **Historical Trends:** annual mean NDVI chart and table (2015–2023)
 - **Statistics:** VCI statistics and sortable drought class area tables
 - **Reports:** CSV downloads, printable report and the original notebook figures
+
+### Screenshots
+
+**Overview**
+
+![Overview](docs/screenshots/overview.png)
+
+**Drought Map** (clicking a location shows its NDVI, VCI and drought class)
+
+![Drought Map](docs/screenshots/drought-map.png)
+
+**Statistics**
+
+![Statistics](docs/screenshots/statistics.png)
+
+**Historical Trends**
+
+![Historical Trends](docs/screenshots/historical-trends.png)
+
+> The map raster layers and clicked-location values shown above are demo data until a backend is connected. The statistics, class areas and NDVI trend are the real notebook results.
 
 ### Data Shown in the Dashboard
 
